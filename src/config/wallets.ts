@@ -25,7 +25,7 @@ export const getNetworkConnector = (): NetworkConnector => {
   }
 
   const defaultChainId = Cookies.get('chain-id')
-
+  console.log(defaultChainId)
   return (network = new NetworkConnector({
     defaultChainId: defaultChainId ? Number(defaultChainId) : 1,
     urls: RPC,

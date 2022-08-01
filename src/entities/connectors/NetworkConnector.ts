@@ -43,6 +43,7 @@ class MiniRpcProvider implements AsyncSendable {
   private batch: BatchItem[] = []
 
   constructor(connector: NetworkConnector, chainId: number, url: string, batchWaitTimeMs?: number) {
+    // console.log(url)
     this.connector = connector
     this.chainId = chainId
     this.url = url

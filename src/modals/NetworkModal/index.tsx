@@ -315,6 +315,7 @@ const NetworkModal: FC = () => {
             ChainId.METIS,
             ChainId.TELOS,
             ChainId.CELO,
+            ChainId.JFIN_TESTNET,
             // ChainId.OKEX,
             // ChainId.HECO,
             // ChainId.PALM,

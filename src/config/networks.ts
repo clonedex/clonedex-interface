@@ -24,6 +24,7 @@ const Telos = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/
 const Optimism = 'https://raw.githubusercontent.com/sushiswap/list/master/logos/network-logos/optimism.jpg'
 const Kava = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/kava.svg'
 const Metis = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/metis.svg'
+const Jfin = 'https://raw.githubusercontent.com/dome/exp/main/jfin.png'
 
 export const NETWORK_ICON: Record<number, string> = {
   [ChainId.ETHEREUM]: Mainnet,
@@ -58,6 +59,8 @@ export const NETWORK_ICON: Record<number, string> = {
   [ChainId.OPTIMISM]: Optimism,
   [ChainId.KAVA]: Kava,
   [ChainId.METIS]: Metis,
+  [ChainId.JFIN]: Jfin,
+  [ChainId.JFIN_TESTNET]: Jfin,
 }
 
 export const NETWORK_LABEL: Record<number, string> = {
@@ -93,4 +96,6 @@ export const NETWORK_LABEL: Record<number, string> = {
   [ChainId.OPTIMISM]: 'Optimism',
   [ChainId.KAVA]: 'Kava',
   [ChainId.METIS]: 'Metis',
+  [ChainId.JFIN]: 'JfinChain',
+  [ChainId.JFIN_TESTNET]: 'JfinChain Testnet',
 }

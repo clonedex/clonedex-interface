@@ -62,7 +62,7 @@ export const initialState: UserState = {
   timestamp: currentTimestamp(),
   URLWarningVisible: true,
   /** SushiGuard / OpenMEV  */
-  userUseSushiGuard: false,
+  userUseSushiGuard: true,
 }
 
 export default createReducer(initialState, (builder) =>

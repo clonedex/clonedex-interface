@@ -80,6 +80,7 @@ const FuseLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/f
 const TelosLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/telos.jpg'
 const KavaLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/kava.svg'
 const MetisLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/metis.svg'
+const JfinLogo = 'https://raw.githubusercontent.com/dome/exp/main/jfin.png'
 
 const LOGO: Record<ChainId, string> = {
   [ChainId.ETHEREUM]: EthereumLogo,
@@ -116,6 +117,8 @@ const LOGO: Record<ChainId, string> = {
   [ChainId.OPTIMISM]: EthereumLogo,
   [ChainId.KAVA]: KavaLogo,
   [ChainId.METIS]: MetisLogo,
+  [ChainId.JFIN]: JfinLogo,
+  [ChainId.JFIN_TESTNET]: JfinLogo,
 }
 
 export interface CurrencyLogoProps {

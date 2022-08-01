@@ -78,6 +78,7 @@ const WRAPPED_NATIVE_ONLY: ChainTokenList = {
   [ChainId.OPTIMISM]: [WNATIVE[ChainId.OPTIMISM]],
   [ChainId.KAVA]: [WNATIVE[ChainId.KAVA]],
   [ChainId.METIS]: [WNATIVE[ChainId.METIS]],
+  [ChainId.JFIN_TESTNET]: [WNATIVE[ChainId.JFIN_TESTNET]],
 }
 
 // used to construct intermediary pairs for trading

@@ -141,6 +141,10 @@ const chains: ChainObject = {
     link: 'https://testnet.bscscan.com',
     builder: explorers.etherscan,
   },
+  [ChainId.JFIN_TESTNET]: {
+    link: 'https://exp.testnet.jfinchain.com',
+    builder: explorers.blockscout,
+  },
   [ChainId.ARBITRUM]: {
     link: 'https://arbiscan.io',
     builder: explorers.etherscan,
