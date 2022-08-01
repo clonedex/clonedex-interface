@@ -1,10 +1,3 @@
-import { defaultAbiCoder } from '@ethersproject/abi'
-import { BigNumber } from '@ethersproject/bignumber'
-import { hexConcat, hexlify, Signature } from '@ethersproject/bytes'
-import { AddressZero } from '@ethersproject/constants'
-import { TransactionResponse } from '@ethersproject/providers'
-import { t } from '@lingui/macro'
-import { useLingui } from '@lingui/react'
 import {
   Currency,
   CurrencyAmount,
@@ -14,7 +7,14 @@ import {
   SUSHISWAP_MULTISWAPPER_ADDRESS,
   Trade as LegacyTrade,
   TradeType,
-} from '@sushiswap/core-sdk'
+} from '@clonedex/core-sdk'
+import { defaultAbiCoder } from '@ethersproject/abi'
+import { BigNumber } from '@ethersproject/bignumber'
+import { hexConcat, hexlify, Signature } from '@ethersproject/bytes'
+import { AddressZero } from '@ethersproject/constants'
+import { TransactionResponse } from '@ethersproject/providers'
+import { t } from '@lingui/macro'
+import { useLingui } from '@lingui/react'
 import KashiCooker from 'app/entities/KashiCooker'
 import { toShare, ZERO } from 'app/functions'
 import { useActiveWeb3React } from 'app/services/web3'

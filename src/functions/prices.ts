@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, JSBI, Percent, Trade, TradeType } from '@sushiswap/core-sdk'
+import { ChainId, Currency, CurrencyAmount, JSBI, Percent, Trade, TradeType } from '@clonedex/core-sdk'
 import { TradeUnion } from 'app/types'
 
 import {

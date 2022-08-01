@@ -1,7 +1,7 @@
+import { Currency, CurrencyAmount, Price, ZERO } from '@clonedex/core-sdk'
+import { PoolState } from '@clonedex/trident-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, CurrencyAmount, Price, ZERO } from '@sushiswap/core-sdk'
-import { PoolState } from '@sushiswap/trident-sdk'
 import { selectBalancesCurrency } from 'app/features/portfolio/portfolioSlice'
 import {
   selectSelectedAssetIndex,

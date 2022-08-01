@@ -1,5 +1,5 @@
+import { Token } from '@clonedex/core-sdk'
 import { getAddress } from '@ethersproject/address'
-import { Token } from '@sushiswap/core-sdk'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'
 import Typography from 'app/components/Typography'
 import ChartCard from 'app/features/analytics/ChartCard'

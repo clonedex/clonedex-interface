@@ -1,7 +1,7 @@
+import { ChainId } from '@clonedex/core-sdk'
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { Signature } from '@ethersproject/bytes'
 import { Contract } from '@ethersproject/contracts'
-import { ChainId } from '@sushiswap/core-sdk'
 import { LiquidityOutput } from 'app/features/trident/types'
 import { StandardSignatureData } from 'app/hooks/useERC20Permit'
 

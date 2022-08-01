@@ -1,8 +1,8 @@
+import { Currency, CurrencyAmount, toHex } from '@clonedex/core-sdk'
 import { Signature } from '@ethersproject/bytes'
 import { TransactionResponse } from '@ethersproject/providers'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, CurrencyAmount, toHex } from '@sushiswap/core-sdk'
 import { approveMasterContractAction, batchAction } from 'app/features/trident/actions'
 import { PoolCreationActionProps, poolCreationActions } from 'app/features/trident/create/actions'
 import {

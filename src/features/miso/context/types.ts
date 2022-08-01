@@ -1,5 +1,5 @@
+import { Currency, CurrencyAmount, Price, Token } from '@clonedex/core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
-import { Currency, CurrencyAmount, Price, Token } from '@sushiswap/core-sdk'
 import { GetState, SetState } from 'zustand'
 
 export type StoreSlice<T extends object, E extends object = T> = (

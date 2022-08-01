@@ -1,5 +1,5 @@
-import { JSBI, ZERO } from '@sushiswap/core-sdk'
-import { PROTOCOL_FEE, PROTOCOL_FEE_DIVISOR } from '@sushiswap/kashi-sdk'
+import { JSBI, ZERO } from '@clonedex/core-sdk'
+import { PROTOCOL_FEE, PROTOCOL_FEE_DIVISOR } from '@clonedex/kashi-sdk'
 
 import { KashiMediumRiskLendingPair } from './KashiMediumRiskLendingPair'
 

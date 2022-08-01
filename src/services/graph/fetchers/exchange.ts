@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@clonedex/core-sdk'
 import { GRAPH_HOST } from 'app/services/graph/constants'
 import {
   dayDatasQuery,

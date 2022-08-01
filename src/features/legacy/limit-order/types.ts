@@ -1,5 +1,5 @@
-import { Price, Token } from '@sushiswap/core-sdk'
-import { ILimitOrderData, LimitOrder, OrderStatus } from '@sushiswap/limit-order-sdk'
+import { Price, Token } from '@clonedex/core-sdk'
+import { ILimitOrderData, LimitOrder, OrderStatus } from '@clonedex/limit-order-sdk'
 
 export interface LimitOrdersResponse {
   pendingOrders: PendingOrders

@@ -1,6 +1,6 @@
+import { STOP_LIMIT_ORDER_ADDRESS } from '@clonedex/limit-order-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { STOP_LIMIT_ORDER_ADDRESS } from '@sushiswap/limit-order-sdk'
 import Button from 'app/components/Button'
 import Typography from 'app/components/Typography'
 import { Feature } from 'app/enums'
@@ -30,7 +30,7 @@ function OpenOrdersPage() {
         {pending.totalOrders > 0 &&
           approvalState !== BentoApprovalState.UNKNOWN &&
           approvalState !== BentoApprovalState.APPROVED && (
-            <div className="border border-blue-700/40 bg-blue/10 rounded p-4 flex justify-between gap-6">
+            <div className="flex justify-between gap-6 p-4 border rounded border-blue-700/40 bg-blue/10">
               <Typography variant="sm" className="text-blue-100">
                 {i18n._(t`It seems like you have open orders while the limit order master contract is not yet approved. Please make
           sure you have approved the limit order master contract or the order will not execute`)}

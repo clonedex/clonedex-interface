@@ -1,5 +1,5 @@
+import { Currency, CurrencyAmount } from '@clonedex/core-sdk'
 import { AddressZero } from '@ethersproject/constants'
-import { Currency, CurrencyAmount } from '@sushiswap/core-sdk'
 import useSearchAndSort from 'app/hooks/useSearchAndSort'
 
 export const reduceBalances = (balanceSources: CurrencyAmount<Currency>[]) =>

@@ -1,12 +1,3 @@
-import Common, { Hardfork } from '@ethereumjs/common'
-import { TransactionFactory } from '@ethereumjs/tx'
-import { defaultAbiCoder } from '@ethersproject/abi'
-import { TransactionRequest } from '@ethersproject/abstract-provider'
-import { BigNumber } from '@ethersproject/bignumber'
-import { isBigNumberish } from '@ethersproject/bignumber/lib/bignumber'
-import { arrayify, DataOptions, hexlify, Signature, SignatureLike, splitSignature } from '@ethersproject/bytes'
-import { AddressZero } from '@ethersproject/constants'
-import { t } from '@lingui/macro'
 import {
   ChainId,
   Currency,
@@ -17,7 +8,7 @@ import {
   toHex,
   Trade as LegacyTrade,
   TradeType,
-} from '@sushiswap/core-sdk'
+} from '@clonedex/core-sdk'
 import {
   ComplexPathParams,
   ExactInputParams,
@@ -30,7 +21,16 @@ import {
   PercentagePath,
   RouteType,
   Trade as TridentTrade,
-} from '@sushiswap/trident-sdk'
+} from '@clonedex/trident-sdk'
+import Common, { Hardfork } from '@ethereumjs/common'
+import { TransactionFactory } from '@ethereumjs/tx'
+import { defaultAbiCoder } from '@ethersproject/abi'
+import { TransactionRequest } from '@ethersproject/abstract-provider'
+import { BigNumber } from '@ethersproject/bignumber'
+import { isBigNumberish } from '@ethersproject/bignumber/lib/bignumber'
+import { arrayify, DataOptions, hexlify, Signature, SignatureLike, splitSignature } from '@ethersproject/bytes'
+import { AddressZero } from '@ethersproject/constants'
+import { t } from '@lingui/macro'
 import { EIP_1559_ACTIVATION_BLOCK } from 'app/constants'
 import { Feature } from 'app/enums'
 import { approveMasterContractAction, batchAction, unwrapWETHAction } from 'app/features/trident/actions'

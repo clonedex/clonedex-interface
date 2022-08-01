@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent } from '@sushiswap/core-sdk'
+import { ChainId, JSBI, Percent } from '@clonedex/core-sdk'
 
 // TODO: Move some of this to config level...
 

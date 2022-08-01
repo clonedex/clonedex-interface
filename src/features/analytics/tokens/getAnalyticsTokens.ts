@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@clonedex/core-sdk'
 import { getBentoStrategies, getBlockDaysAgo, getNativePrice, getTokens } from 'app/services/graph'
 
 interface getAnalyticsTokensProps {

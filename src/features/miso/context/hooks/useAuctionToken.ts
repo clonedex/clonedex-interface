@@ -1,5 +1,5 @@
+import { CHAIN_KEY } from '@clonedex/core-sdk'
 import { defaultAbiCoder } from '@ethersproject/abi'
-import { CHAIN_KEY } from '@sushiswap/core-sdk'
 import MISO from '@sushiswap/miso/exports/all.json'
 import { useContract } from 'app/hooks'
 import { useActiveWeb3React } from 'app/services/web3'

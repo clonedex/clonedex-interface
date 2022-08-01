@@ -1,5 +1,5 @@
+import { ChainId } from '@clonedex/core-sdk'
 import { Contract } from '@ethersproject/contracts'
-import { ChainId } from '@sushiswap/core-sdk'
 import stringify from 'fast-json-stable-stringify'
 import useSWR from 'swr'
 

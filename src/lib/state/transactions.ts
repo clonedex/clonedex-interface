@@ -1,5 +1,5 @@
+import { Currency, CurrencyAmount, TradeType } from '@clonedex/core-sdk'
 import { TransactionReceipt, TransactionResponse } from '@ethersproject/abstract-provider'
-import { Currency, CurrencyAmount, TradeType } from '@sushiswap/core-sdk'
 import { PrivateTxStatus } from 'app/entities/SushiGuard'
 import { atomWithImmer } from 'jotai/immer'
 

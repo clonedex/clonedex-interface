@@ -1,4 +1,3 @@
-import { splitSignature } from '@ethersproject/bytes'
 import {
   Currency,
   CurrencyAmount,
@@ -9,7 +8,8 @@ import {
   Token,
   Trade as V2Trade,
   TradeType,
-} from '@sushiswap/core-sdk'
+} from '@clonedex/core-sdk'
+import { splitSignature } from '@ethersproject/bytes'
 import { DAI, USDC } from 'app/config/tokens/ethereum'
 import { useSingleCallResult } from 'app/lib/hooks/multicall'
 import { useActiveWeb3React } from 'app/services/web3'

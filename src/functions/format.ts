@@ -1,9 +1,9 @@
 // CONVENTION formatFoo -> string
 
+import { Currency, CurrencyAmount, Fraction, JSBI, Price } from '@clonedex/core-sdk'
 import { getAddress } from '@ethersproject/address'
 import { BigNumberish } from '@ethersproject/bignumber'
 import { formatUnits } from '@ethersproject/units'
-import { Currency, CurrencyAmount, Fraction, JSBI, Price } from '@sushiswap/core-sdk'
 // @ts-ignore TYPE NEEDS FIXING
 import Numeral from 'numeral'
 

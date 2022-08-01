@@ -1,4 +1,4 @@
-import { Currency, Token } from '@sushiswap/core-sdk'
+import { Currency, Token } from '@clonedex/core-sdk'
 import { TokenList } from '@uniswap/token-lists'
 import { HeadlessUiModal } from 'app/components/Modal'
 import usePrevious from 'app/hooks/usePrevious'

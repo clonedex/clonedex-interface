@@ -1,7 +1,7 @@
+import { ChainId, SUSHI } from '@clonedex/core-sdk'
 import { parseUnits } from '@ethersproject/units'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { ChainId, SUSHI } from '@sushiswap/core-sdk'
 import Button from 'app/components/Button'
 import Dots from 'app/components/Dots'
 import { XSUSHI } from 'app/config/tokens/ethereum'

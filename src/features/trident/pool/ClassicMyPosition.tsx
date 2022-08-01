@@ -1,6 +1,6 @@
+import { ZERO } from '@clonedex/core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { ZERO } from '@sushiswap/core-sdk'
 import ListPanel from 'app/components/ListPanel'
 import { usePoolContext } from 'app/features/trident/PoolContext'
 import SumUSDCValues from 'app/features/trident/SumUSDCValues'

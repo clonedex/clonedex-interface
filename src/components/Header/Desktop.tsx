@@ -1,5 +1,5 @@
+import { NATIVE } from '@clonedex/core-sdk'
 import { XIcon } from '@heroicons/react/solid'
-import { NATIVE } from '@sushiswap/core-sdk'
 import Container from 'app/components/Container'
 import { NAV_CLASS } from 'app/components/Header/styles'
 import useMenu from 'app/components/Header/useMenu'

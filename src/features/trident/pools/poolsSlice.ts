@@ -1,5 +1,5 @@
+import { Fee } from '@clonedex/trident-sdk'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { Fee } from '@sushiswap/trident-sdk'
 import { AppState } from 'app/state'
 
 export enum PoolSortOption {

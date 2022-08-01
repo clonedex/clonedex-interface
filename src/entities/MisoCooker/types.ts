@@ -1,5 +1,5 @@
+import { Currency, CurrencyAmount, Price, Token } from '@clonedex/core-sdk'
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber'
-import { Currency, CurrencyAmount, Price, Token } from '@sushiswap/core-sdk'
 
 export type CookerFn<I, O> = (x: I) => O
 

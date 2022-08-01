@@ -1,5 +1,5 @@
-import { Token } from '@sushiswap/core-sdk'
-import { PoolType } from '@sushiswap/trident-sdk'
+import { Token } from '@clonedex/core-sdk'
+import { PoolType } from '@clonedex/trident-sdk'
 import { getApy } from 'app/functions'
 import {
   TridentPositionRow,

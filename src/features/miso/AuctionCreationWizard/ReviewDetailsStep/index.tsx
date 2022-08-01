@@ -1,7 +1,7 @@
+import { Currency, CurrencyAmount, NATIVE, Percent, Price, Token } from '@clonedex/core-sdk'
 import { AddressZero } from '@ethersproject/constants'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, CurrencyAmount, NATIVE, Percent, Price, Token } from '@sushiswap/core-sdk'
 import Typography from 'app/components/Typography'
 import { auctionDetailsSchema } from 'app/features/miso/AuctionCreationWizard/AuctionDetailsStep'
 import { generalDetailsSchema } from 'app/features/miso/AuctionCreationWizard/GeneralDetailsStep'

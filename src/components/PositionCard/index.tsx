@@ -1,9 +1,9 @@
+import { CurrencyAmount, JSBI, Pair, Percent, Token } from '@clonedex/core-sdk'
 import { Disclosure, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/outline'
 import { PlusIcon } from '@heroicons/react/solid'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, JSBI, Pair, Percent, Token } from '@sushiswap/core-sdk'
 import ListPanel from 'app/components/ListPanel'
 import Typography from 'app/components/Typography'
 import { BIG_INT_ZERO } from 'app/constants'
@@ -55,7 +55,7 @@ export const MinimalPositionCard: FC<PositionCardProps> = ({ pair }) => {
       {userPoolBalance && JSBI.greaterThan(userPoolBalance.quotient, JSBI.BigInt(0)) && (
         <ListPanel
           header={
-            <div className="overflow-hidden px-4 py-2 bg-dark-900">
+            <div className="px-4 py-2 overflow-hidden bg-dark-900">
               <Typography variant="xs" className="text-secondary">
                 {i18n._(t`My Position`)}
               </Typography>
@@ -65,7 +65,7 @@ export const MinimalPositionCard: FC<PositionCardProps> = ({ pair }) => {
             <ListPanel.CurrencyAmountItem amount={cur} key={index} size="xs" />
           ))}
           footer={
-            <div className="flex overflow-hidden px-4 py-2 justify-between">
+            <div className="flex justify-between px-4 py-2 overflow-hidden">
               <Typography variant="xs" className="text-secondary">
                 {i18n._(t`Pool Share`)}
               </Typography>
@@ -119,14 +119,14 @@ const FullPositionCard: FC<PositionCardProps> = ({ pair, stakedBalance }) => {
           )}
         >
           <Disclosure.Button as={Fragment}>
-            <div className="flex justify-between gap-2 items-center pl-2 cursor-pointer">
+            <div className="flex items-center justify-between gap-2 pl-2 cursor-pointer">
               <div className="flex items-center gap-2">
                 <CurrencyLogoArray currencies={[currency0, currency1]} dense />
                 <Typography variant="sm" weight={700} className="text-white">
                   {currency0.symbol}-{currency1.symbol}
                 </Typography>
               </div>
-              <div className="flex gap-2 flex-grow items-center justify-end p-1 rounded">
+              <div className="flex items-center justify-end flex-grow gap-2 p-1 rounded">
                 <ChevronDownIcon
                   width={20}
                   className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-white')}
@@ -142,12 +142,12 @@ const FullPositionCard: FC<PositionCardProps> = ({ pair, stakedBalance }) => {
             unmount={false}
           >
             <Disclosure.Panel static>
-              <div className="border border-dark-800 rounded p-3">
+              <div className="p-3 border rounded border-dark-800">
                 {[token0Deposited, token1Deposited].map((cur, index) => (
                   <ListPanel.CurrencyAmountItem amount={cur} key={index} size="xs" className="!px-0 !py-1" />
                 ))}
                 {userDefaultPoolBalance && JSBI.greaterThan(userDefaultPoolBalance.quotient, BIG_INT_ZERO) && (
-                  <div className="flex justify-between border-t border-dark-800 pt-3 mt-3">
+                  <div className="flex justify-between pt-3 mt-3 border-t border-dark-800">
                     <div className="flex items-center mb-1">
                       <Typography variant="xs" className="text-low-emphesis">
                         {i18n._(t`Pool share`)}{' '}

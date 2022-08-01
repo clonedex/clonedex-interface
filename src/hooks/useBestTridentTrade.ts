@@ -1,4 +1,3 @@
-import { BigNumber } from '@ethersproject/bignumber'
 import {
   ChainId,
   Currency,
@@ -8,7 +7,7 @@ import {
   Trade as LegacyTrade,
   TradeType,
   WNATIVE,
-} from '@sushiswap/core-sdk'
+} from '@clonedex/core-sdk'
 import {
   ConstantProductPool,
   convertTinesSingleRouteToLegacyRoute,
@@ -20,7 +19,8 @@ import {
   PoolState,
   RouteStatus,
   Trade,
-} from '@sushiswap/trident-sdk'
+} from '@clonedex/trident-sdk'
+import { BigNumber } from '@ethersproject/bignumber'
 import { PoolUnion } from 'app/features/trident/types'
 import { toAmountJSBI, toShareCurrencyAmount } from 'app/functions'
 import { useBentoRebase } from 'app/hooks/useBentoRebases'

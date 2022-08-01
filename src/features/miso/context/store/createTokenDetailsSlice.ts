@@ -1,5 +1,5 @@
+import { Token } from '@clonedex/core-sdk'
 import { AddressZero } from '@ethersproject/constants'
-import { Token } from '@sushiswap/core-sdk'
 import { useStore } from 'app/features/miso/context/store/index'
 import { StoreSlice, TokenSetup, TokenType } from 'app/features/miso/context/types'
 import { useToken } from 'app/hooks/Tokens'

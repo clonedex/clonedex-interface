@@ -1,5 +1,5 @@
+import { BENTOBOX_ADDRESS, ChainId } from '@clonedex/core-sdk'
 import { JsonRpcProvider } from '@ethersproject/providers'
-import { BENTOBOX_ADDRESS, ChainId } from '@sushiswap/core-sdk'
 import { Contract, Signer, utils, Wallet } from 'ethers'
 
 import { ADDRESSES } from '../constants/Index'

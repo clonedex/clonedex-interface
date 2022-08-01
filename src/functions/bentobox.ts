@@ -1,5 +1,5 @@
+import { CurrencyAmount, JSBI, Rebase, Token, ZERO } from '@clonedex/core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
-import { CurrencyAmount, JSBI, Rebase, Token, ZERO } from '@sushiswap/core-sdk'
 
 // export function toAmount(token, shares: BigNumber): BigNumber {
 //   // console.log('toAmount', token, shares)

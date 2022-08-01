@@ -1,5 +1,5 @@
+import { Currency, CurrencyAmount, Fraction, JSBI, Percent, Price, Token } from '@clonedex/core-sdk'
 import { parseUnits } from '@ethersproject/units'
-import { Currency, CurrencyAmount, Fraction, JSBI, Percent, Price, Token } from '@sushiswap/core-sdk'
 import {
   AuctionCreationWizardInput,
   AuctionCreationWizardInputFormatted,

@@ -1,6 +1,6 @@
+import { WNATIVE_ADDRESS } from '@clonedex/core-sdk'
 import { getAddress } from '@ethersproject/address'
 import { AddressZero } from '@ethersproject/constants'
-import { WNATIVE_ADDRESS } from '@sushiswap/core-sdk'
 import {
   Action,
   BatchAction,

@@ -1,5 +1,5 @@
+import { Currency, CurrencyAmount, Token } from '@clonedex/core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
-import { Currency, CurrencyAmount, Token } from '@sushiswap/core-sdk'
 
 export default interface LPToken {
   id?: number
