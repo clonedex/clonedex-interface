@@ -24,6 +24,7 @@ export const BENTOBOX = {
   [ChainId.CELO]: 'matthewlilley/bentobox-celo',
   [ChainId.OPTIMISM]: 'matthewlilley/bentobox-optimism',
   [ChainId.KAVA]: 'sushiswap/bentobox-kava',
+  [ChainId.JFIN_TESTNET]: 'jfin-testnet/clonedex-bentobox',
 }
 
 // @ts-ignore TYPE NEEDS FIXING

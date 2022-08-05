@@ -23,6 +23,7 @@ export const BLOCKS = {
   [ChainId.OPTIMISM]: 'kybernetwork/optimism-blocks',
   [ChainId.KAVA]: 'sushiswap/blocks-kava',
   [ChainId.METIS]: 'sushiswap/blocks-metis',
+  [ChainId.JFIN_TESTNET]: 'jfin-testnet/ethereum-blocks',
 }
 
 // @ts-ignore TYPE NEEDS FIXING

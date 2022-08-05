@@ -1047,6 +1047,13 @@
   dependencies:
     "@clonedex/core-sdk" "1.0.0"
 
+"@clonedex/bentobox-sdk@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@clonedex/bentobox-sdk/-/bentobox-sdk-1.0.2.tgz#f4619bded0b0d959905c13614f168179c75fdfbd"
+  integrity sha512-syE8b1wOLAOYl6DwKGLrxVArcuahMiwBCYs97zlHPfPXBdQJOw52TUxCvZU/2qKogPuF91UPHdbnZbcSFvDfuQ==
+  dependencies:
+    "@clonedex/core-sdk" "1.0.2"
+
 "@clonedex/core-sdk@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@clonedex/core-sdk/-/core-sdk-1.0.0.tgz#210b6606b6901e68499aa5b460ac7917538bdd9e"
@@ -1063,21 +1070,37 @@
     tiny-warning "^1.0.0"
     toformat "^2.0.0"
 
-"@clonedex/kashi-sdk@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@clonedex/kashi-sdk/-/kashi-sdk-1.0.0.tgz#5b1799e61d7f6fb505597a09caa067f30b448d22"
-  integrity sha512-tuiFQhbAAwX1Fp3M5QcptvOw4iFTbBamMSoIBFt2iyJeO9Pr9C4fnvJaQCkBD2UnA+WNES/41SP5KS1HiRvx5w==
+"@clonedex/core-sdk@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@clonedex/core-sdk/-/core-sdk-1.0.2.tgz#d6e6d3139f2b323f6143fae068bb3b521585a418"
+  integrity sha512-F+w1HCdR7DXReNqG5MgjD6V4tagzUuYShsuaHdCALg6rXRghIQb9JVyKKwFppZqvc5v19Iz/OEiuu77w8CYLPA==
   dependencies:
-    "@clonedex/bentobox-sdk" "1.0.0"
+    "@ethersproject/address" "^5.4.0"
+    "@ethersproject/bignumber" "^5.4.0"
+    "@ethersproject/providers" "^5.4.0"
+    "@ethersproject/solidity" "^5.4.0"
+    big.js "^6.1.1"
+    decimal.js-light "^2.5.0"
+    jsbi "^4.1.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.0"
+    toformat "^2.0.0"
+
+"@clonedex/kashi-sdk@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@clonedex/kashi-sdk/-/kashi-sdk-1.0.2.tgz#311b97dc55d9e8adfa3f8915dfe930cdb5bc914d"
+  integrity sha512-I2YeynCWzNQz/0jbtPQ/FDx6+GztZbTYJH4lFo85VF4+97Cj26cWtUqOTvlHMNUQrYGiqPkqnFP33xYTMXmSEQ==
+  dependencies:
+    "@clonedex/bentobox-sdk" "1.0.2"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/contracts" "^5.4.0"
 
-"@clonedex/limit-order-sdk@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@clonedex/limit-order-sdk/-/limit-order-sdk-1.0.0.tgz#65aec4d4e1b2123cd824975e91d5d8f3204406a2"
-  integrity sha512-G72ynemHmSv7b7vMdrnwO1BCTZsJYb7Etn6G4rq/gvIg63CnbR4MNQ4b4LDxeo02w7LBt6NxyMcowWOOs2M0ig==
+"@clonedex/limit-order-sdk@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@clonedex/limit-order-sdk/-/limit-order-sdk-1.0.2.tgz#20f67f9d4e7725ab3766415ecc1fa1764e818f37"
+  integrity sha512-G1bjUKfjaHwXGXYtQNcrWISHsvCT041iyvii81G2IepyaBhBgtN3ihZnj4wPpMlRx5lv+FU1qQnWIdmlLuQTuw==
   dependencies:
-    "@clonedex/core-sdk" "1.0.0"
+    "@clonedex/core-sdk" "1.0.2"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/abstract-signer" "^5.4.0"
     "@ethersproject/bytes" "^5.4.0"
@@ -1088,26 +1111,26 @@
     eip-712 "^0.4.0"
     isomorphic-unfetch "^3.0.0"
 
-"@clonedex/miso-sdk@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@clonedex/miso-sdk/-/miso-sdk-1.0.0.tgz#127c1c01da04a23731ad13b20f7f357329c7ccad"
-  integrity sha512-bPHo+2tsxxVX7TIJCmIqKhFN1iw6kjIY9/NwZFDN7DOxqkvZz7+Wjx56rg9sE3C2+yrVv7Bn2FdKq8XSD5UtrQ==
+"@clonedex/miso-sdk@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@clonedex/miso-sdk/-/miso-sdk-1.0.2.tgz#8091e204ee508103df0a1a56682a45d36452df90"
+  integrity sha512-63jj3TgOTFq0ZTLqr8qgxjTHrQrmCScCLCkPci0Bk08sstvDjioTxPCAK0fB79cPzLMyKp22ouY3dFT3cHNcnA==
 
-"@clonedex/tines@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@clonedex/tines/-/tines-1.0.0.tgz#a70f89ba6d82af02ebed92b40e135e5116acae02"
-  integrity sha512-ilzWH7O08TuEmgxTHnjt/52t4/MKkZgIz8BambQRO2Nhnl3KbtZM1rmEYHH8WbGXiebNej0pGrGijUXitlkQ5g==
+"@clonedex/tines@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@clonedex/tines/-/tines-1.0.2.tgz#5243ebb2729fbcdbce4c4a0910e690df32ca7cab"
+  integrity sha512-57OO1yLiE/loYyfWTFQYu6zpi3nxSz108sehvngRKs2EO+6uukbSZE8AYe85/b247NPXRvmy1656HHZxk6FWDQ==
   dependencies:
-    "@clonedex/core-sdk" "1.0.0"
+    "@clonedex/core-sdk" "1.0.2"
     "@ethersproject/bignumber" "^5.4.0"
 
-"@clonedex/trident-sdk@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@clonedex/trident-sdk/-/trident-sdk-1.0.0.tgz#5f0e9e932f2248099ab138eea314420f58bead7d"
-  integrity sha512-CbI5/8a2BD0l3eSLtyGNFNXFk1+FIvFc9zm12q68abOx4lPrFpwVOPmJAmwMC7HPFHNo1A5l/DVByiKGvK7Oaw==
+"@clonedex/trident-sdk@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@clonedex/trident-sdk/-/trident-sdk-1.0.2.tgz#414b8fd0f8d7b1ddbfd8a4946c15131d80027138"
+  integrity sha512-Q1coOMK5PiZ0GI3+DPQZsHz/SpsXwGCBz72+wRW9874SeZ2c72cMbzPbuG/9PT/f8pDWtQiL6fvyCn2sCSw6rg==
   dependencies:
-    "@clonedex/core-sdk" "1.0.0"
-    "@clonedex/tines" "1.0.0"
+    "@clonedex/core-sdk" "1.0.2"
+    "@clonedex/tines" "1.0.2"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
     "@sushiswap/trident" "1.0.0-canary.40"

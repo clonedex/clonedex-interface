@@ -33,6 +33,7 @@ export const EXCHANGE = {
   [ChainId.HECO]: 'heco-exchange/heco',
   [ChainId.FUSE]: 'sushiswap/exchange-fuse',
   [ChainId.MOONBEAM]: 'sushiswap/exchange-moonbeam',
+  [ChainId.JFIN_TESTNET]: 'jfin-testnet/clonedex-exchange',
 }
 
 // @ts-ignore TYPE NEEDS FIXING
@@ -41,6 +42,7 @@ export const exchange = async (chainId = ChainId.ETHEREUM, query, variables = {}
   pager(`${GRAPH_HOST[chainId]}/subgraphs/name/${EXCHANGE[chainId]}`, query, variables)
 
 export const getPairs = async (chainId = ChainId.ETHEREUM, variables: any = undefined, query = pairsQuery) => {
+  // console.log(chainId)
   const { pairs } = await exchange(chainId, query, variables)
   return pairs
 }

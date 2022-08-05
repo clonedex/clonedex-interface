@@ -32,7 +32,7 @@ const features: FeatureMap = {
   ],
   [ChainId.BSC]: [Feature.AMM, Feature.BENTOBOX, Feature.KASHI, Feature.MIGRATE, Feature.ANALYTICS, Feature.MISO],
   [ChainId.BSC_TESTNET]: [Feature.AMM],
-  [ChainId.JFIN_TESTNET]: [Feature.AMM],
+  [ChainId.JFIN_TESTNET]: [Feature.LIMIT_ORDERS, Feature.AMM, Feature.TRIDENT, Feature.ANALYTICS, Feature.BENTOBOX],
   [ChainId.FANTOM]: [
     Feature.AMM,
     Feature.ANALYTICS,

@@ -3,6 +3,7 @@ import { ChainId } from '@clonedex/core-sdk'
 const THE_GRAPH = 'https://api.thegraph.com'
 const NAS_GRAPH = 'https://graph.kkt.one/node'
 const HYPER_GRAPH = 'https://q.hg.network'
+const JFIN_GRAPH = 'https://graph.8api.sh'
 
 export const GRAPH_HOST = {
   [ChainId.ETHEREUM]: THE_GRAPH,
@@ -24,6 +25,7 @@ export const GRAPH_HOST = {
   [ChainId.OPTIMISM]: THE_GRAPH,
   [ChainId.KAVA]: 'https://pvt.graph.kava.io',
   [ChainId.METIS]: 'https://andromeda.thegraph.metis.io',
+  [ChainId.JFIN_TESTNET]: JFIN_GRAPH,
 }
 
 export const TRIDENT = {
@@ -32,4 +34,5 @@ export const TRIDENT = {
   [ChainId.OPTIMISM]: 'olastenberg/trident-optimism',
   [ChainId.KAVA]: 'sushiswap/trident-kava',
   [ChainId.METIS]: 'sushiswap/trident-metis',
+  [ChainId.JFIN_TESTNET]: 'jfin-testnet/clonedex-trident',
 }
